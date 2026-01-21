@@ -5,3 +5,30 @@
  </p>
 My first project focuses on analyzing the impact of class imbalance on RoBERTa-based malicious URL detection. 
 I study how detection performance changes under different data distributions: when benign URLs greatly outnumber malicious ones, when malicious URLs dominate, and when both classes are balanced.
+
+---
+
+### 🎯 Objective
+
+-**Task**: Classification of URLs into benign or malicious (phishing).
+
+-**Model**: Use of the RoBERTa model for URL classification, without major modifications to the base architecture.
+
+-**Study Focus**: Investigation of the impact of class imbalance on the performance of the RoBERTa model.
+
+---
+
+### 📊Experimental Scenarios:
+
+-**S1**: Balanced dataset (50% benign / 50% malicious)
+
+-**S2**: Imbalanced dataset (90% benign / 10% malicious)
+
+-**S3**: Imbalanced dataset (10% benign / 90% malicious)
+
+
+---
+### ⚖️ Imbalance Handling Techniques
+-Application of **SMOTE** and **SMOTE-Tomek** to address class imbalance in S2 and S3
+
+-Comparative analysis of the impact of these techniques on model performance
