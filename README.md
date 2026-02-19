@@ -4,11 +4,10 @@
   <img src="https://img.shields.io/badge/Transformers-Hugging%20Face-blueviolet?style=for-the-badge&logo=Hugging%20Face&logoColor=white" alt="Transformers">
  </p>
 
- ###📌 Project Overview
+ ### 📌 Project Overview
+ 
 This project analyzes how class imbalance affects the performance of a RoBERTa-based model for malicious URL detection.
-The task is binary classification:
-Benign URLs
-Malicious (Phishing) URLs
+The task is binary classification: Benign URLs and Malicious (Phishing) URLs.
 The main objective is to evaluate how different class distributions influence detection performance and how cost-sensitive learning helps address imbalance issues.
 
 ---
