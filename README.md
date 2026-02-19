@@ -29,11 +29,9 @@ The main objective is to evaluate how different class distributions influence de
 
 -Pretrained RoBERTa model
 
--No major modifications to the base architecture
+-Fine-tuned for binary URL classification.
 
--Fine-tuned for binary URL classification
-
--Parameter-efficient fine-tuning using LoRA (Low-Rank Adaptation)
+-Parameter-efficient fine-tuning using LoRA (Low-Rank Adaptation).
 -**📈 Experimental Scenarios**
 Three class distribution settings were tested:
 
@@ -47,6 +45,8 @@ Three class distribution settings were tested:
 ---
 ### ⚖️ Imbalance Handling Techniques
 -For the imbalanced scenarios (S2 and S3), cost-sensitive learning was applied.
+
+
 -Performance was compared with and without imbalance handling.
 ### 📂 Dataset
 
