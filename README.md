@@ -32,14 +32,16 @@ The main objective is to evaluate how different class distributions influence de
 -Fine-tuned for binary URL classification.
 
 -Parameter-efficient fine-tuning using LoRA (Low-Rank Adaptation).
+
+
 -**📈 Experimental Scenarios**
 Three class distribution settings were tested:
 
--**S1**: Balanced dataset (50% benign / 50% malicious)
+**S1**: Balanced dataset (50% benign / 50% malicious)
 
--**S2**: Imbalanced dataset (90% benign / 10% malicious)
+**S2**: Imbalanced dataset (90% benign / 10% malicious)
 
--**S3**: Imbalanced dataset (10% benign / 90% malicious)
+**S3**: Imbalanced dataset (10% benign / 90% malicious)
 
 
 ---
