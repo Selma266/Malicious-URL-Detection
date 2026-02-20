@@ -31,7 +31,7 @@ The goal is to evaluate how different class distributions affect model performan
 ---
 
 ### 📊Experimental Setup:
--**🤖 Model**
+**🤖 Model**
 
 -Pretrained RoBERTa model
 
@@ -40,8 +40,7 @@ The goal is to evaluate how different class distributions affect model performan
 -Parameter-efficient fine-tuning using LoRA (Low-Rank Adaptation)
 
 
--**📈 Experimental Scenarios**
-Three class distribution settings were tested:
+**📈 Experimental Scenarios**: Three class distribution settings were tested:
 
 **S1**: Balanced dataset (50% benign / 50% malicious)
 
