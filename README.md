@@ -57,3 +57,8 @@ The goal is to evaluate how different class distributions affect model performan
 ### 📂 Dataset
 
 The phishing URL dataset used in this project: https://data.mendeley.com/datasets/vfszbj9b36/1
+
+## Implementation Note
+
+- `roberta_v1.ipynb`: Baseline model without class imbalance handling.  
+- `roberta_v2.ipynb`: Improved version including cost-sensitive learning to address class imbalance.
