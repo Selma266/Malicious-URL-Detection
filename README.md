@@ -6,21 +6,27 @@
 
  ### 📌 Project Overview
  
-This project analyzes how class imbalance affects the performance of a RoBERTa-based model for malicious URL detection.
-The task is binary classification: Benign URLs and Malicious (Phishing) URLs.
-The main objective is to evaluate how different class distributions influence detection performance and how cost-sensitive learning helps address imbalance issues.
+This project investigates the impact of class imbalance on a RoBERTa-based model for malicious URL detection.
+
+The task is binary classification:
+
+Benign URLs
+
+Malicious (Phishing) URLs
+
+The goal is to evaluate how different class distributions affect model performance and to examine the effectiveness of cost-sensitive learning in handling imbalance.
 
 ---
 
 ### 🎯 Objective
 
--Build a URL classification model using RoBERTa (base architecture).
+-Develop a malicious URL classifier using RoBERTa.
 
--Evaluate model performance under different class imbalance scenarios.
+-Evaluate performance under different class imbalance ratios.
 
--Apply cost-sensitive learning to handle imbalanced datasets.
+-Apply cost-sensitive learning for imbalanced scenarios.
 
--Compare performance across different data distributions.
+-Compare results across all data distributions.
 
 ---
 
@@ -29,9 +35,9 @@ The main objective is to evaluate how different class distributions influence de
 
 -Pretrained RoBERTa model
 
--Fine-tuned for binary URL classification.
+-Fine-tuned for binary classification
 
--Parameter-efficient fine-tuning using LoRA (Low-Rank Adaptation).
+-Parameter-efficient fine-tuning using LoRA (Low-Rank Adaptation)
 
 
 -**📈 Experimental Scenarios**
@@ -48,8 +54,7 @@ Three class distribution settings were tested:
 ### ⚖️ Imbalance Handling Techniques
 -For the imbalanced scenarios (S2 and S3), cost-sensitive learning was applied.
 
-
--Performance was compared with and without imbalance handling.
+-Model performance was compared with and without imbalance handling.
 ### 📂 Dataset
 
 The phishing URL dataset used in this project: https://data.mendeley.com/datasets/vfszbj9b36/1
