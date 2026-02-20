@@ -8,12 +8,6 @@
  
 This project investigates the impact of class imbalance on a RoBERTa-based model for malicious URL detection.
 
-The task is binary classification:
-
-Benign URLs
-
-Malicious (Phishing) URLs
-
 The goal is to evaluate how different class distributions affect model performance and to examine the effectiveness of cost-sensitive learning in handling imbalance.
 
 ---
@@ -35,9 +29,7 @@ The goal is to evaluate how different class distributions affect model performan
 
 -Pretrained RoBERTa model
 
--Fine-tuned for binary classification
-
--Parameter-efficient fine-tuning using LoRA (Low-Rank Adaptation)
+-Fine-tuned for binary classification using LoRA (Low-Rank Adaptation), a parameter-efficient fine-tuning method.
 
 
 **📈 Experimental Scenarios**: Three class distribution settings were tested:
